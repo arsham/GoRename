@@ -4,6 +4,15 @@
         "command": "go_rename"
     },
     {
+        "caption": "GoRename (Quick)",
+        "command": "go_rename",
+        "args": {
+            "simulate": false,
+            "verbose": false,
+            "quick": true,
+        },
+    },
+    {
         "caption": "GoRename: Show Results",
         "command": "go_guru_show_results"
     },
@@ -45,5 +54,4 @@
         "platform": "OSX"
         }
     },
-    
 ]
